@@ -14,7 +14,7 @@ var packageDefinition = protoLoader.loadSync(
 var hello_proto = grpc.loadPackageDefinition(packageDefinition).helloworld;
 
 function sayHello(call, callback) {
-    callback(null, { message: 'Olá ' + call.request.name });
+    callback(null, { message: `Ola ${call.request.name}!` });
 }
 
 function main() {
