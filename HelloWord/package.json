@@ -1,7 +1,7 @@
 {
-  "name": "hello-word",
+  "name": "hello-word-server",
   "version": "0.0.0",
-  "description": "HelloWord",
+  "description": "HelloWordServer",
   "main": "app.js",
   "author": {
     "name": "Daniel"
